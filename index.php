@@ -1,3 +1,3 @@
 <?php
-echo "myname is madhan123abc!!!";
+echo phpinfo();
 ?>
