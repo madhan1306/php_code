@@ -1,3 +1,3 @@
 <?php
-echo phpinfo()
+echo "This is Simple php Test";
 ?>
