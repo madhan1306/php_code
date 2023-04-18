@@ -1,3 +1,3 @@
 <?php
-echo "This is Simple php Test";
+echo "This is Declarative php test";
 ?>
