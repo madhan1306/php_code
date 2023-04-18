@@ -1,3 +1,3 @@
 <?php
-echo "This is test of Declarative php test";
+echo "This is MAdhan's php test";
 ?>
