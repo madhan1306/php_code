@@ -1,3 +1,3 @@
 <?php
-echo "This is Today's Test";
+echo "This is for Testing Purpose";
 ?>
