@@ -1,3 +1,3 @@
 <?php
-echo "This is Madhan's php test-1";
+echo "This is Today's Test";
 ?>
