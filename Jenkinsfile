@@ -1,4 +1,7 @@
-properties([
+
+pipeline {
+    agent any
+    properties([
     parameters([
         gitParameter(branch: '',
                      branchFilter: 'origin/(Release.*)',
@@ -12,11 +15,6 @@ properties([
                      type: 'PT_BRANCH')
     ])
 ])
-pipeline {
-    agent any
-      triggers {
-      githubPush()
-       }
     stages {
         stage('php deploy') {
             steps {
